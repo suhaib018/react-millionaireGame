@@ -1,0 +1,51 @@
+.question-container{
+    border-radius: 12px;
+    border: 3px solid white;
+    color: white;
+    padding: 10px;
+    margin-bottom: 70px;
+    background-color: rgb(11, 11, 131);
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.container button{ 
+    border-radius: 12px;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    background-color: rgb(11, 11, 131);
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(45, 45, 218);
+    cursor: pointer;
+}
+
+.prizes-container{
+    background-color: rgb(7, 7, 70);
+    color: whitesmoke;
+    min-height: 570px;
+    display: flex;
+    flex-direction: column-reverse;
+    line-height:0.5px;
+}
+.red{
+    background-color: red;
+}
+.white{
+    background-color: green;
+}
+.prizes-hover{
+    border-radius: 12px;
+    padding: 15px 8px; 
+    margin: 4px 15px;
+}

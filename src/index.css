@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("../public/assets/images/images.jpg");
+  background-repeat: no-repeat;
+  background-size: cover
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App{
+  display: grid;
+  grid-template-columns: 64% 30%;
+  column-gap: 77px;
+}
+
+.qustions-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
 }
